@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Cards</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <p>Cards</p>
+  <div *ngFor="let card of cards">
+      <div>
+          <p>{{ card.id }}</p>
+       
+          <p>{{ card.name }}</p>
+     
+          <p>{{ card.surname }}</p>
+
+          <p>{{ card.adres }}</p>
+ 
+          <p>{{ card.phone }}</p>
+
+          <p>{{ card.email }}</p>
+      </div> 
+  </div>
+
+</ion-content>
+

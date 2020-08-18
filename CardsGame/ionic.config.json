@@ -1,0 +1,8 @@
+{
+  "name": "CardsGame",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "angular"
+}
